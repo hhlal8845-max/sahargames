@@ -1,0 +1,27 @@
+{
+  "appId": "com.sahargames.app",
+  "appName": "sahar-games",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https",
+    "allowNavigation": [
+      "*.facebook.com",
+      "*.facebook.net",
+      "*.googleapis.com",
+      "*.gstatic.com"
+    ]
+  },
+  "android": {
+    "allowMixedContent": true,
+    "backgroundColor": "#06001a"
+  },
+  "ios": {
+    "backgroundColor": "#06001a",
+    "scrollEnabled": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}
