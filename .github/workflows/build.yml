@@ -1,4 +1,3 @@
-```yaml
 name: Build APK
 on:
   push:
@@ -25,4 +24,4 @@ jobs:
         with:
           name: sahar-games-apk
           path: android/app/build/outputs/apk/debug/app-debug.apk
-``
+
